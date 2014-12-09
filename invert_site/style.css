@@ -3,14 +3,14 @@ body{
 	margin-left: 100px;
 }
 h2 {
-	font-family: tstarpro-bold;
+	font-family: 'Share Tech Mono' sans-serif;
 	font-size: 300px;
 	line-height: -20pt;
 	padding-top: 100px;
 	width: 1800px;
 }
 .uses {
-	font-family: tstarpro-medium;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	width: 500px;
@@ -53,7 +53,7 @@ h2 {
 .Cymbalta {
 	color: rgb(95,12,82);
 }
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed|Share+Tech+Mono);
 
 
 

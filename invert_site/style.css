@@ -1,0 +1,59 @@
+body{
+	margin-top: -300px;
+	margin-left: 100px;
+}
+h2 {
+	font-family: tstarpro-bold;
+	font-size: 300px;
+	line-height: -20pt;
+	padding-top: 100px;
+	width: 1800px;
+}
+.uses {
+	font-family: tstarpro-medium;
+	font-size: 18px;
+	line-height: 22px;
+	width: 500px;
+	margin-left: 80px;
+	margin-top :-400px;
+}
+.Lipitor {
+	color: rgb(193,39,45);
+}
+.Abilify {
+	color: rgb(241,90,49);
+}
+.Seroquel {
+	color: rgb(241,117,34);
+}
+.Crestor {
+	color: rgb(253,185,19);
+}
+.Diskus {
+	color: rgb(255,244,80);
+}
+.Enbrel {
+	color: rgb(214,224,64);
+}
+.Singulair {
+	color: rgb(75,148,70);
+}
+.Remicade {
+	color: rgb(46,114,78);
+}
+.Plavix {
+	color: rgb(52,88,132);
+}
+.Humira {
+	color: rgb(64,27,102);
+}
+.Nexium {
+	color: rgb(79,30,100);
+}
+.Cymbalta {
+	color: rgb(95,12,82);
+}
+
+
+
+

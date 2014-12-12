@@ -3,20 +3,37 @@ body{
 	margin-left: 100px;
 }
 h2 {
-	font-family: 'Share Tech Mono' sans-serif;
+	font-family: 'Lato', serif;
+	font-weight: 300;
 	font-size: 300px;
 	line-height: -20pt;
 	padding-top: 100px;
 	width: 1800px;
+	color: white;
 }
 .uses {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
-	line-height: 22px;
+	font-family: Georgia, 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 22.5px;
 	width: 500px;
 	margin-left: 80px;
-	margin-top :-400px;
+	margin-top : -200px;
+	letter-spacing: .2px
 }
+.sideeffects {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 22.5px;
+	width: 500px;
+	margin-left: 80px;
+	letter-spacing: .4px;
+	color: white; 
+}
+.title2 {
+	font-size: 24px;
+}
+
 .Lipitor {
 	color: rgb(193,39,45);
 }
@@ -53,7 +70,5 @@ h2 {
 .Cymbalta {
 	color: rgb(95,12,82);
 }
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed|Share+Tech+Mono);
-
 
 

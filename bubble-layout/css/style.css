@@ -1,3 +1,11 @@
+.portrait{
+/*  background-color: white;*/
+background-image: url("../portrait-01.jpg");
+}
+a:hover{
+  opacity: .7;
+}
+
 body {
   background: #28143f;
   font-size: 16px;

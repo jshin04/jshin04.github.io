@@ -1,0 +1,11 @@
+#content{
+  	-webkit-flow-into: content-flow;
+}
+
+.input{
+  	-webkit-flow-from: content-flow;
+  	font-size: 15px !important;
+  	line-height: 1.6 !important;
+  	color: black;
+  	background-color: white !important;
+}

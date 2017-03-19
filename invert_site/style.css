@@ -1,29 +1,29 @@
 body{
 	margin-top: -300px;
-	margin-left: 100px;
 }
 h2 {
-	font-family: 'Lato', serif;
-	font-weight: 300;
+	font-family: Scala_Sans;
 	font-size: 300px;
+	font-style: italic;
 	line-height: -20pt;
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 	width: 1800px;
 	color: white;
+	margin-left: 100px;
 }
 .uses {
-	font-family: Georgia, 'Roboto Condensed', sans-serif;
-	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
 	font-size: 17px;
 	line-height: 22.5px;
-	width: 500px;
-	margin-left: 80px;
-	margin-top : -200px;
-	letter-spacing: .2px
+	letter-spacing: .7px
 }
 .sideeffects {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 17px;
 	line-height: 22.5px;
 	width: 500px;
 	margin-left: 80px;
@@ -71,4 +71,17 @@ h2 {
 	color: rgb(95,12,82);
 }
 
+
+.column{
+	width: 500px;
+	margin-left: 80px;
+	margin-top : -200px;
+	height: 100px;
+	background-color: red;
+	/*position: float;
+	clear: left;*/
+}
+.two{
+	background-color: yellow;
+}
 

@@ -42,19 +42,10 @@
         -webkit-align-items: center;
         align-items: center;*/
     }
-    .footer{ 
-        position: fixed;
-        z-index: 99;
-        bottom: 0;
-        width: 100%;
-        height: 10%;
-        background-color: black;
-    }
     </style>
 </head>
 <body>
     
-    <div class="footer"></div>
     
     <!-- Swiper -->
 
@@ -130,6 +121,17 @@
         touchRatio: 1.75,
     });
 
+    $(document).ready(function() {
+      function setHeight() {
+        windowHeight = $(window).innerHeight();
+        $('.sidebar').css('min-height', windowHeight);
+      };
+      setHeight();
+      
+      $(window).resize(function() {
+        setHeight();
+      });
+    });
     </script>
 
 </body>

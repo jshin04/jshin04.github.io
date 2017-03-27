@@ -1,0 +1,21 @@
+#content{
+  	/*-webkit-flow-into: content-flow;*/
+  	padding: 0px 25px 0px 25px;
+  	line-height: 1.4375 !important;
+  	font-size: 16px !important;
+}
+.input{
+  	background-color: white !important;
+  	/*-webkit-flow-from: content-flow;*/
+}
+.cover{
+	background-image: url('img/cover.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+p{
+/*  margin-top: 0px;
+  margin-bottom: 0px;*/
+}

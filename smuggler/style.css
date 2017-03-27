@@ -1,11 +1,13 @@
 #content{
   	-webkit-flow-into: content-flow;
   	padding: 0px 25px 0px 25px;
-  	line-height: 1.6 !important;
-  	font-size: 15px !important;
+  	line-height: 1.5 !important;
+  	font-size: 16px !important;
+    font-family: 'Quando', serif;
+
 }
 .input{
-  	background-color: white !important;
+  	background-color: #fffff0 !important;
   	-webkit-flow-from: content-flow;
 }
 .cover{
@@ -14,4 +16,21 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+.chapter{
+  line-height: 3.4;
+  padding-top: 50%;
+  padding-bottom: 30px;
+  width: 100%;
+}
+p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h1{
+  font-family: 'Vesper Libre',serif;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+  color: #961b1b;
 }

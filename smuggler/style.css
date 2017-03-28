@@ -1,17 +1,17 @@
 #content{
   	-webkit-flow-into: content-flow;
-  	padding: 0px 25px 0px 25px;
-  	line-height: 1.5 !important;
-  	font-size: 16px !important;
+  	padding: 0px 25px 0px 35px;
+  	line-height: 1.6;
+  	font-size: 15px;
     font-family: 'Quando', serif;
 
 }
 .input{
-  	background-color: #fffff0 !important;
+  	background-color: #ffd8d8 !important;
   	-webkit-flow-from: content-flow;
 }
 .cover{
-	background-image: url('img/cover.jpg');
+	background-image: url('img/kid_smuggler.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -27,10 +27,24 @@ p{
   margin-bottom: 0px;
   margin-top: 0px;
 }
-h1{
-  font-family: 'Vesper Libre',serif;
+h4{
+  font-family: 'Poppins',sanserif;
   font-size: 40px;
   line-height: 1;
   text-align: center;
-  color: #961b1b;
+  color: #32289b;
+}
+h1{
+  position: fixed;
+  top: 100px;
+  left: -70px;
+  font-family: 'Vampiro One', cursive;
+  font-size: 60px;
+  color: rgb(100,225,100);
+  text-align: right;
+  transform: rotate(90deg);
+}
+.swiper-pagination{
+  position: absolute;
+  left:10px;
 }

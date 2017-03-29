@@ -10,12 +10,12 @@
   	background-color: black !important;
   	-webkit-flow-from: content-flow;
 }
-.cover{
+/*.cover{
 	background-image: url('img/kid_smugglerscare.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 .chapter{
   line-height: 3.4;
@@ -38,13 +38,17 @@ h4{
 }
 h1{
   position: fixed;
-  top: 100px;
-  left: -70px;
+  top: 35%;
+  text-align: center;
   font-family: 'Vampiro One', cursive;
   font-size: 60px;
   color: #00FFFF;
-  text-align: right;
-  transform: rotate(90deg);
+  width: 100%;
+  /*transform: rotate(90deg);*/
+}
+video{
+  width: 100%;
+  height: 100%;
 }
 .swiper-pagination{
   position: absolute;
@@ -55,4 +59,5 @@ h1{
 }
 .swiper-pagination-bullet-active{
   background-color: #00FFFF !important;
+  opacity: .7 !important;
 }

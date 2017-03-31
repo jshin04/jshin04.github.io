@@ -1,0 +1,89 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+
+}
+
+body{
+  margin: 0;
+
+}
+.canvas{
+  width: 100%;
+}
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+video{
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+
+}
+#arrow{
+  font-family: sans-serif;
+  line-height: 3;
+  font-size: 20px;
+}
+h1{
+  position: absolute;
+  z-index: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  top: 35%;
+  font-family: 'Vampiro One', cursive;
+  font-size: 60px;
+  color: #00FFFF;
+
+}
+h2{
+  position: absolute;
+  z-index: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: #00FFFF;
+  text-transform: uppercase;
+}
+p{
+  font-size: 15px;
+  line-height: 1.6;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  font-family: 'Poppins',sanserif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article{
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  background-color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+.sketchfab{
+  top:0;
+  left: 0;
+  width: 100%;
+}
